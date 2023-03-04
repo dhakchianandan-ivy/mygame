@@ -8,7 +8,7 @@ import {
   addNotification,
   fetchSubscriptions,
   removeSubscription,
-} from '$lib/pocketbase';
+} from '$lib/appwrite';
 
 export const POST = async ({ request, url }) => {
   try {
